@@ -1,5 +1,7 @@
 # hermes-claude-session-bridge
 
+**[English](README.md)** | **[简体中文](README.zh-CN.md)**
+
 **Bridge conversations between [Hermes Agent](https://hermes-agent.nousresearch.com/) and [Claude Code](https://code.claude.com/) — both directions, with full tool-call fidelity.**
 
 - **Hermes → Claude Code (lossless):** inject any Hermes session into Claude Code so `claude --resume <uuid>` picks it up — complete history including every `tool_use` / `tool_result` pair.
